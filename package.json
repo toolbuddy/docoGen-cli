@@ -1,0 +1,17 @@
+{
+    "name": "docogen-cli",
+    "version": "0.0.1",
+    "description": "The CLI mode interface of docoGen",
+    "scripts": {
+        "install": "npm link"
+    },
+    "dependencies": {
+        "commander": "2.11.0",
+        "docogen": "^0.0.12"
+    },
+    "license": "GPL-3.0",
+    "preferGlobal": true,
+    "bin": {
+        "docogen": "main.js"
+    }
+}
